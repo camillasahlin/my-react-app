@@ -7,6 +7,7 @@ export default function App() {
   <div className="App">
     <div className="containter">
     <Weather />
+    </div>
     <footer>
       <a href="https://github.com/camillasahlin/my-react-app"
     target="_blank"
@@ -14,7 +15,7 @@ export default function App() {
     
     </footer>
     </div>
-    </div>
+    
     );
 }
 
