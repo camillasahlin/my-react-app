@@ -49,7 +49,7 @@ input[type=search]:focus{
 }
 
 
-.unit {
+.float-left {
     font-size: 30px;
     font-weight: 400;
     position: relative;
@@ -57,10 +57,3 @@ input[type=search]:focus{
     top: -34px;
 }
 
-.temperature {
-    font-size: 30px;
-    font-weight: 400;
-    position: relative;
-    line-height: 1;
-    top: -34px;
-}
