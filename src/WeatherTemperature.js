@@ -1,8 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function WeatherTemperature(props) {
-    const [unit, setUnit] = useState("celsius");
-    if (unit === "celsius") {
     return (
         <div className="WeatherTemperature">
             <span className="temperature">
@@ -11,7 +9,4 @@ export default function WeatherTemperature(props) {
             <span className="unit">°C</span>
         </div>
     );
-    } else {
-        return "F"
-    }
 }
